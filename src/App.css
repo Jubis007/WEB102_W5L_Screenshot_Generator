@@ -1,0 +1,143 @@
+/* Imports the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;600&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/* The individual input cards */
+li.form {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 12px;
+  background-color: #1e293b; /* Sleek dark slate */
+  width: 300px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+  border: 1px solid #334155;
+  color: #f8fafc; /* Crisp off-white text */
+}
+
+/* The subheadings inside the cards */
+li.form h2 {
+  margin-top: 0;
+  color: #38bdf8; /* Bright blue accent */
+  font-weight: 500;
+}
+
+li.form p {
+  font-size: 0.9rem;
+  color: #94a3b8; /* Muted gray for description text */
+}
+
+/* The text boxes */
+input.textbox {
+  font-family: 'Poppins', sans-serif;
+  width: 80%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #475569;
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input.textbox:focus {
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+/* The main wrapper */
+.whole-page {
+  background-color: #0f172a; /* Deep dark background */
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+  margin-top: 15px;
+  color: #f8fafc;
+  position: relative; /* Needed for the quota tracker */
+}
+
+/* The Submit Button */
+.button {
+  color: #0f172a;
+  background-color: #38bdf8; /* High-contrast bright blue */
+  border: none;
+  border-radius: 8px;
+  padding: 12px 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #0ea5e9;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(14, 165, 233, 0.4);
+}
+
+.button:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+/* Query Status & Gallery Container */
+.container {
+  padding: 20px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+  margin: 20px 5%;
+  border-radius: 12px;
+  background-color: #1e293b;
+  color: #f8fafc;
+  border: 1px solid #334155;
+  word-wrap: break-word; /* Prevents long URLs from breaking the container */
+}
+
+.screenshot, .gallery-screenshot {
+  max-width: 90%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+/* Step 5 Quota Tracker */
+.quota {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  margin: 0;
+  color: #94a3b8;
+  font-size: 0.9rem;
+  background-color: #1e293b;
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 1px solid #334155;
+}
