@@ -14,3 +14,9 @@ Here are a few of the core technical milestones I tackled during this build:
 It is incredibly satisfying to bridge the gap between a frontend interface and powerful backend services. Feeling much more confident in my ability to read API documentation and securely implement external tools into my own architecture!
 
 **Tags:** `#ReactJS` `#WebDevelopment` `#CodePath` `#USF` `#SoftwareEngineering` `#APIs` `#FrontendDeveloper`
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented required features:
+
+<img src='https://i.imgur.com/IrrN4Qd.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
