@@ -19,4 +19,4 @@ It is incredibly satisfying to bridge the gap between a frontend interface and p
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://i.imgur.com/IrrN4Qd.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/rSwNg0M.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
